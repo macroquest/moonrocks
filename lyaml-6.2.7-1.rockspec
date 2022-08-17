@@ -1,4 +1,5 @@
 local _MODREV, _SPECREV = '6.2.7', '-1'
+local USE_STATIC_LIBYAML = true
 
 package = 'lyaml'
 version = _MODREV .. _SPECREV
@@ -23,30 +24,40 @@ external_dependencies = {
    YAML = {
      library = 'yaml',
    },
+   platforms = {
+     windows = {
+       YAML = {
+         library = 'libyaml',
+       }
+     }
+   },
 }
 
 build = {
-   type = 'command',
-   build_command = '$(LUA) build-aux/luke'
-      .. ' package="' .. package .. '"'
-      .. ' version="' .. _MODREV .. '"'
-      .. ' PREFIX="$(PREFIX)"'
-      .. ' CFLAGS="$(CFLAGS)"'
-      .. ' LIBFLAG="$(LIBFLAG)"'
-      .. ' LIB_EXTENSION="$(LIB_EXTENSION)"'
-      .. ' OBJ_EXTENSION="$(OBJ_EXTENSION)"'
-      .. ' LUA="$(LUA)"'
-      .. ' LUA_DIR="$(LUADIR)"'
-      .. ' LUA_INCDIR="$(LUA_INCDIR)"'
-      .. ' YAML_DIR="$(YAML_DIR)"'
-      .. ' YAML_INCDIR="$(YAML_INCDIR)"'
-      .. ' YAML_LIBDIR="$(YAML_LIBDIR)"'
-      ,
-   install_command = '$(LUA) build-aux/luke install --quiet'
-      .. ' INST_LIBDIR="$(LIBDIR)"'
-      .. ' INST_LUADIR="$(LUADIR)"'
-      ,
-   copy_directories = {'doc'},
+   type = 'builtin',
+   modules  = {
+     ['yaml'] = {
+       sources = {
+         'ext/yaml/yaml.c',
+         'ext/yaml/emitter.c',
+         'ext/yaml/parser.c',
+         'ext/yaml/scanner.c',
+       },
+       incdirs   = { "$(YAML_INCDIR)" },
+       libdirs   = { "$(YAML_LIBDIR)" },
+       defines   = {
+         "VERSION=\"" .. _MODREV .. "\"",
+       }
+     },
+     ['lyaml']            = 'lib/lyaml/init.lua',
+     ['lyaml.explicit']   = 'lib/lyaml/explicit.lua',
+     ['lyaml.functional'] = 'lib/lyaml/functional.lua',
+     ['lyaml.implicit']   = 'lib/lyaml/implicit.lua',
+   },
+   platforms = {
+     windows = { modules = { yaml = {libraries = { "libyaml" } } } },
+     unix    = { modules = { yaml = {libraries = { "yaml"    } } } },
+   }
 }
 
 if _MODREV == 'git' then
@@ -57,3 +68,9 @@ if _MODREV == 'git' then
    }
 end
 
+local function append(t, v) t[#t + 1] = v end
+
+if USE_STATIC_LIBYAML then
+  -- required if linking against static libyaml (only on Windows/MSVC)
+  append(build.modules.yaml.defines, "YAML_DECLARE_STATIC")
+end
