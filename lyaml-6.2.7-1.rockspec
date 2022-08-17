@@ -40,7 +40,7 @@ build = {
        libraries = { "yaml" },
        defines   = {
          "VERSION=\"" .. _MODREV .. "\"",
-         "YAML_DELCARE_STATIC",
+         "YAML_DECLARE_STATIC",
        }
      },
      ['lyaml']            = 'lib/lyaml/init.lua',
