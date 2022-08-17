@@ -24,13 +24,6 @@ external_dependencies = {
    YAML = {
      library = 'yaml',
    },
-   platforms = {
-     windows = {
-       YAML = {
-         library = 'libyaml',
-       }
-     }
-   },
 }
 
 build = {
@@ -54,10 +47,6 @@ build = {
      ['lyaml.functional'] = 'lib/lyaml/functional.lua',
      ['lyaml.implicit']   = 'lib/lyaml/implicit.lua',
    },
-   platforms = {
-     windows = { modules = { yaml = {libraries = { "libyaml" } } } },
-     unix    = { modules = { yaml = {libraries = { "yaml"    } } } },
-   }
 }
 
 if _MODREV == 'git' then
