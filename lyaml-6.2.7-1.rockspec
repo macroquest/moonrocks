@@ -1,5 +1,4 @@
 local _MODREV, _SPECREV = '6.2.7', '-1'
-local USE_STATIC_LIBYAML = true
 
 package = 'lyaml'
 version = _MODREV .. _SPECREV
@@ -38,8 +37,10 @@ build = {
        },
        incdirs   = { "$(YAML_INCDIR)" },
        libdirs   = { "$(YAML_LIBDIR)" },
+       libraries = { "yaml" },
        defines   = {
          "VERSION=\"" .. _MODREV .. "\"",
+         "YAML_DELCARE_STATIC",
        }
      },
      ['lyaml']            = 'lib/lyaml/init.lua',
@@ -55,11 +56,4 @@ if _MODREV == 'git' then
    source = {
       url = 'git://github.com/gvvaughan/lyaml.git',
    }
-end
-
-local function append(t, v) t[#t + 1] = v end
-
-if USE_STATIC_LIBYAML then
-  -- required if linking against static libyaml (only on Windows/MSVC)
-  append(build.modules.yaml.defines, "YAML_DECLARE_STATIC")
 end
