@@ -26,27 +26,28 @@ external_dependencies = {
 }
 
 build = {
-   type = 'command',
-   build_command = '$(LUA) build-aux/luke'
-      .. ' package="' .. package .. '"'
-      .. ' version="' .. _MODREV .. '"'
-      .. ' PREFIX="$(PREFIX)"'
-      .. ' CFLAGS="$(CFLAGS)"'
-      .. ' LIBFLAG="$(LIBFLAG)"'
-      .. ' LIB_EXTENSION="$(LIB_EXTENSION)"'
-      .. ' OBJ_EXTENSION="$(OBJ_EXTENSION)"'
-      .. ' LUA="$(LUA)"'
-      .. ' LUA_DIR="$(LUADIR)"'
-      .. ' LUA_INCDIR="$(LUA_INCDIR)"'
-      .. ' YAML_DIR="$(YAML_DIR)"'
-      .. ' YAML_INCDIR="$(YAML_INCDIR)"'
-      .. ' YAML_LIBDIR="$(YAML_LIBDIR)"'
-      ,
-   install_command = '$(LUA) build-aux/luke install --quiet'
-      .. ' INST_LIBDIR="$(LIBDIR)"'
-      .. ' INST_LUADIR="$(LUADIR)"'
-      ,
-   copy_directories = {'doc'},
+   type = 'builtin',
+   modules  = {
+     ['yaml'] = {
+       sources = {
+         'ext/yaml/yaml.c',
+         'ext/yaml/emitter.c',
+         'ext/yaml/parser.c',
+         'ext/yaml/scanner.c',
+       },
+       incdirs   = { "$(YAML_INCDIR)" },
+       libdirs   = { "$(YAML_LIBDIR)" },
+       libraries = { "yaml" },
+       defines   = {
+         "VERSION=\"" .. _MODREV .. "\"",
+         "YAML_DECLARE_STATIC",
+       }
+     },
+     ['lyaml']            = 'lib/lyaml/init.lua',
+     ['lyaml.explicit']   = 'lib/lyaml/explicit.lua',
+     ['lyaml.functional'] = 'lib/lyaml/functional.lua',
+     ['lyaml.implicit']   = 'lib/lyaml/implicit.lua',
+   },
 }
 
 if _MODREV == 'git' then
