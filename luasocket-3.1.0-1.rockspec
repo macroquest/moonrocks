@@ -30,6 +30,7 @@ local function make_plat(plat)
     },
     win32 = {
       "LUASOCKET_DEBUG",
+      "LUASOCKET_INET_PTON",
       "NDEBUG"
     },
     mingw32 = {
