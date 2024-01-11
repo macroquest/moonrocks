@@ -25,7 +25,7 @@ build = {
   type = "builtin",
   modules = {
     dkjson = "dkjson.lua"
-  }
+  },
   platforms = {
     mingw32 = { defines = { "WINVER=0x0A00" } }
   }
