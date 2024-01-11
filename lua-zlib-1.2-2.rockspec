@@ -38,5 +38,6 @@ build = {
       windows = { modules = { zlib = { libraries = {
          "$(ZLIB_LIBDIR)/zlib" -- Must full path to `"zlib"`, or else will cause the `LINK : fatal error LNK1149`
       } } } }
+      mingw32 = { defines = { "WINVER=0x0A00" } }
    }
 }
