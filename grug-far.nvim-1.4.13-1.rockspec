@@ -1,5 +1,5 @@
-local git_ref = '1.3.0'
-local modrev = '1.3.0'
+local git_ref = '652b13f3837c4bd995e9994fad488174df7de222'
+local modrev = '1.4.13'
 local specrev = '1'
 
 local repo_url = 'https://github.com/MagicDuck/grug-far.nvim'
@@ -9,7 +9,7 @@ package = 'grug-far.nvim'
 version = modrev ..'-'.. specrev
 
 description = {
-  summary = 'Find And Replace plugin for neovim.',
+  summary = 'Find And Replace plugin for neovim',
   detailed = '',
   labels = { 'neovim' } ,
   homepage = 'https://github.com/MagicDuck/grug-far.nvim',
@@ -22,7 +22,7 @@ test_dependencies = { }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'grug-far.nvim-' .. '1.3.0',
+  dir = 'grug-far.nvim-' .. '652b13f3837c4bd995e9994fad488174df7de222',
 }
 
 if modrev == 'scm' or modrev == 'dev' then
