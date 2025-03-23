@@ -29071,6 +29071,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1796-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -32103,6 +32110,20 @@ repository = {
          }
       },
       ['1.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -35750,6 +35771,15 @@ repository = {
          }
       },
       ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['ini.lua'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -110024,6 +110054,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    resp = {
@@ -165339,6 +165374,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.51-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.6-1'] = {
          {
             arch = "rockspec"
@@ -205797,6 +205839,13 @@ repository = {
          }
       },
       ['0.27.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.27.2-1'] = {
          {
             arch = "rockspec"
          }, {
