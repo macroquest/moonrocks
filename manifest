@@ -9481,6 +9481,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['colorbuddy.nvim'] = {
@@ -32116,6 +32123,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.5.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.5.2-1'] = {
          {
             arch = "rockspec"
@@ -32145,6 +32159,27 @@ repository = {
          }
       },
       ['1.5.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33686,6 +33721,41 @@ repository = {
          }
       },
       ['1.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.50-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.51-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.52-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.53-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.54-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -88198,6 +88268,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['25.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['mason-lspconfig.nvim'] = {
@@ -96578,6 +96655,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.18.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neotest-zig'] = {
@@ -103150,6 +103234,13 @@ repository = {
          }
       },
       ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.10.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -115662,6 +115753,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.26-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.27-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.3-1'] = {
          {
             arch = "rockspec"
@@ -127221,6 +127322,11 @@ repository = {
    },
    ['texture-share-vk'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -157214,6 +157320,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-javascript'] = {
@@ -172826,6 +172939,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.31-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -173032,6 +173152,13 @@ repository = {
          }
       },
       ['0.0.30-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.31-1'] = {
          {
             arch = "rockspec"
          }, {
