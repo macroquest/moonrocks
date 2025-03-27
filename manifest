@@ -32151,6 +32151,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.5.14-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.15-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.5.2-1'] = {
          {
             arch = "rockspec"
@@ -98901,6 +98915,13 @@ repository = {
       }
    },
    ['nvim-dap'] = {
+      ['0.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.5.0-1'] = {
          {
             arch = "rockspec"
@@ -103064,6 +103085,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    orm = {
@@ -103290,6 +103318,13 @@ repository = {
          }
       },
       ['2.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.11.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -129959,6 +129994,13 @@ repository = {
          }
       },
       ['0.0.31-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.32-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -160698,6 +160740,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.38-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -180963,6 +181012,13 @@ repository = {
          }
       },
       ['0.0.48-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.49-1'] = {
          {
             arch = "rockspec"
          }, {
