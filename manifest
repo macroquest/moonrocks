@@ -29113,6 +29113,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1804-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -32179,6 +32186,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.5.17-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.18-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.5.2-1'] = {
          {
             arch = "rockspec"
@@ -33825,7 +33846,56 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.57-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.58-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.60-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.61-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.62-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.63-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.64-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -78801,6 +78871,22 @@ repository = {
          }
       }
    },
+   ['luaplus-loader'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luapod = {
       ['0.1-1'] = {
          {
@@ -87067,6 +87153,13 @@ repository = {
          }
       },
       ['0.2.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -122834,6 +122927,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['smartquotes.sile'] = {
@@ -125912,6 +126012,13 @@ repository = {
          }
       },
       ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -130060,6 +130167,13 @@ repository = {
          }
       },
       ['0.0.33-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.34-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -160827,6 +160941,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.40-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.5-1'] = {
          {
             arch = "rockspec"
@@ -185996,6 +186117,13 @@ repository = {
          }
       },
       ['0.0.18-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.19-1'] = {
          {
             arch = "rockspec"
          }, {
