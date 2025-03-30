@@ -11889,6 +11889,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    corenlp = {
@@ -25141,6 +25148,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   fensteraudio = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ff = {
@@ -29120,6 +29143,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1808-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -31749,6 +31779,13 @@ repository = {
          }
       }
    },
+   grail = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    grapheme = {
       ['master-1'] = {
          {
@@ -33425,6 +33462,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.4.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['haxe-deps'] = {
@@ -33896,6 +33940,13 @@ repository = {
          }
       },
       ['1.0.64-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.65-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -35467,6 +35518,13 @@ repository = {
          }
       },
       ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -86758,6 +86816,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.11.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.2.0-1'] = {
          {
             arch = "rockspec"
@@ -95952,6 +96017,13 @@ repository = {
          }
       },
       ['9.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['9.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -106434,6 +106506,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['pijaz sdk'] = {
@@ -116005,6 +116082,31 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.31-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.32-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.33-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.34-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.35-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -119604,6 +119706,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.60-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.61-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.7-1'] = {
          {
             arch = "rockspec"
@@ -122002,14 +122114,7 @@ repository = {
       }
    },
    ['shazam-arm64'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.1-1'] = {
+      ['1.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -122018,21 +122123,7 @@ repository = {
       }
    },
    ['shazam-x86_64'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.2-1'] = {
+      ['1.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -130174,6 +130265,13 @@ repository = {
          }
       },
       ['0.0.34-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.35-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -181240,6 +181338,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.50-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.6-1'] = {
          {
             arch = "rockspec"
@@ -200250,6 +200355,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['unimpaired.vim'] = {
@@ -205012,6 +205124,13 @@ repository = {
             arch = "src"
          }
       },
+      ['10.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.0.0-1'] = {
          {
             arch = "rockspec"
@@ -207186,6 +207305,13 @@ repository = {
          }
       },
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
