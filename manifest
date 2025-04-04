@@ -88767,6 +88767,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['mason.nvim'] = {
@@ -97075,6 +97082,20 @@ repository = {
          }
       },
       ['0.18.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.18.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.18.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -108215,6 +108236,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    pthread = {
@@ -114617,6 +114643,13 @@ repository = {
          }
       },
       ['5.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -121677,6 +121710,13 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -129852,6 +129892,42 @@ repository = {
          }
       },
       ['1.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   torch_cwrap = {
+      ['v1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   torch_paths = {
+      ['v1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   torch_threads = {
+      ['v1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   torch_torch7 = {
+      ['v1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -139649,6 +139725,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.34-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -143095,6 +143178,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.33-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -143811,6 +143901,13 @@ repository = {
          }
       },
       ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -176211,6 +176308,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.46-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.5-1'] = {
          {
             arch = "rockspec"
@@ -181400,6 +181504,13 @@ repository = {
          }
       },
       ['0.0.48-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.49-1'] = {
          {
             arch = "rockspec"
          }, {
