@@ -1,28 +1,28 @@
-local git_ref = 'v0.1.4'
-local modrev = '0.1.4'
+local git_ref = '3bc6997724c6b9c10bc4bac86821c9061694ded3'
+local modrev = '1.6.5'
 local specrev = '1'
 
-local repo_url = 'https://github.com/kndndrj/nvim-dbee'
+local repo_url = 'https://github.com/MagicDuck/grug-far.nvim'
 
 rockspec_format = '3.0'
-package = 'nvim-dbee'
+package = 'grug-far.nvim'
 version = modrev ..'-'.. specrev
 
 description = {
-  summary = 'Interactive database client for neovim',
+  summary = 'Find And Replace plugin for neovim',
   detailed = '',
   labels = { 'neovim' } ,
-  homepage = 'https://github.com/kndndrj/nvim-dbee',
-  license = 'GPL-3.0'
+  homepage = 'https://github.com/MagicDuck/grug-far.nvim',
+  license = 'MIT'
 }
 
-dependencies = { 'lua >= 5.1', 'nui.nvim' } 
+dependencies = { 'lua >= 5.1' } 
 
 test_dependencies = { }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'nvim-dbee-' .. '0.1.4',
+  dir = 'grug-far.nvim-' .. '3bc6997724c6b9c10bc4bac86821c9061694ded3',
 }
 
 if modrev == 'scm' or modrev == 'dev' then
