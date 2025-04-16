@@ -29243,6 +29243,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1836-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -32464,6 +32471,13 @@ repository = {
          }
       },
       ['1.6.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -43279,6 +43293,27 @@ repository = {
          }
       },
       ['1.10.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10.0-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10.0-7'] = {
          {
             arch = "rockspec"
          }, {
@@ -56256,6 +56291,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lovebird = {
@@ -58859,6 +58908,13 @@ repository = {
    },
    ['lua-barcode-lookup'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -69859,6 +69915,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-oss'] = {
@@ -71183,6 +71246,20 @@ repository = {
          }
       },
       ['4.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -98638,6 +98715,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    nocurses = {
@@ -110890,6 +110974,13 @@ repository = {
          }
       },
       ['8.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['8.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
