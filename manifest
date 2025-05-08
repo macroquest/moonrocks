@@ -26312,6 +26312,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fontproof = {
@@ -29465,6 +29472,13 @@ repository = {
          }
       },
       ['0.0.1877-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1880-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -34721,6 +34735,13 @@ repository = {
          }
       },
       ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -46595,6 +46616,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-pangea-ai-guard'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-param-transformer'] = {
       ['0.1.1-1'] = {
          {
@@ -55382,6 +55412,13 @@ repository = {
          }
       },
       ['0.9.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.9.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -82618,6 +82655,13 @@ repository = {
          }
       },
       ['2.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -120418,6 +120462,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.21-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.3-1'] = {
          {
             arch = "rockspec"
@@ -124456,6 +124505,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    shelve = {
@@ -125340,6 +125396,13 @@ repository = {
          }
       },
       ['1.9.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
