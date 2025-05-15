@@ -29515,6 +29515,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1891-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -34849,6 +34856,13 @@ repository = {
          }
       },
       ['1.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -97162,6 +97176,13 @@ repository = {
       }
    },
    ['navigator.lua'] = {
+      ['0.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.4.0-1'] = {
          {
             arch = "rockspec"
@@ -99841,6 +99862,13 @@ repository = {
          }
       },
       ['2.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.4.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -105412,6 +105440,13 @@ repository = {
          }
       },
       ['2.11.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.12.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -120783,6 +120818,11 @@ repository = {
          }
       },
       ['0.0.27-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.28-1'] = {
          {
             arch = "rockspec"
          }
@@ -208923,6 +208963,13 @@ repository = {
          }
       },
       ['11.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['11.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
