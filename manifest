@@ -5544,6 +5544,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    bump = {
@@ -23358,6 +23363,13 @@ repository = {
          }
       }
    },
+   ['evolved.lua'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    exaerror = {
       ['1.0.0-1'] = {
          {
@@ -34998,6 +35010,13 @@ repository = {
          }
       },
       ['1.1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.8-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -100084,6 +100103,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    nluarepl = {
@@ -118294,6 +118320,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.258-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.259-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.26-1'] = {
          {
             arch = "rockspec"
@@ -120001,6 +120037,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.261-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.27-1'] = {
          {
             arch = "rockspec"
@@ -120861,6 +120902,11 @@ repository = {
          }
       },
       ['0.0.111-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.112-1'] = {
          {
             arch = "rockspec"
          }
@@ -204240,6 +204286,13 @@ repository = {
          }
       }
    },
+   typeid = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    typical = {
       ['0.1-1'] = {
          {
@@ -209652,6 +209705,13 @@ repository = {
          }
       },
       ['11.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['11.5.1-1'] = {
          {
             arch = "rockspec"
          }, {
