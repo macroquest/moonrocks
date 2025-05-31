@@ -1,22 +1,25 @@
 
 
-package = "santoku-bert"
-version = "0.0.8-1"
+package = "santoku-threads"
+version = "0.0.5-1"
 rockspec_format = "3.0"
 
 source = {
-  url = "https://github.com/treadwelllane/lua-santoku-bert/releases/download/0.0.8-1/santoku-bert-0.0.8-1.tar.gz",
+  url = "https://github.com/treadwelllane/lua-santoku-threads/releases/download/0.0.5-1/santoku-threads-0.0.5-1.tar.gz",
 }
 
 description = {
-  homepage = "https://github.com/treadwelllane/lua-santoku-bert",
+  homepage = "https://github.com/treadwelllane/lua-santoku-threads",
   license = "MIT"
 }
 
 dependencies = {
   "lua >= 5.1",
-  "santoku >= 0.0.107-1",
-  "santoku-python >= 0.0.16-1"
+  "santoku >= 0.0.268-1"
+}
+
+external_dependencies = {
+  
 }
 
 build = {
@@ -27,10 +30,17 @@ build = {
   },
   build_variables = {
     CC = "$(CC)",
+    CXX = "$(CXX)",
+    AR = "$(AR)",
+    LD = "$(LD)",
+    NM = "$(NM)",
+    LDSHARED = "$(LDSHARED)",
+    RANLIB = "$(RANLIB)",
     CFLAGS = "$(CFLAGS)",
     LIBFLAG = "$(LIBFLAG)",
     LUA_BINDIR = "$(LUA_BINDIR)",
     LUA_INCDIR = "$(LUA_INCDIR)",
+    LUA_LIBDIR = "$(LUA_LIBDIR)",
     LUA_LIBDIR = "$(LUA_LIBDIR)",
     LUA = "$(LUA)",
   },
@@ -42,4 +52,3 @@ build = {
     INST_CONFDIR = "$(CONFDIR)",
   }
 }
-

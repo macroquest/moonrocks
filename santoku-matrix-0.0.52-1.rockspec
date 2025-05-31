@@ -1,43 +1,47 @@
 
 
-package = "santoku-bert"
-version = "0.0.1-1"
+package = "santoku-matrix"
+version = "0.0.52-1"
 rockspec_format = "3.0"
 
 source = {
-  url = "https://github.com/treadwelllane/lua-santoku-bert/releases/download/0.0.1-1/santoku-bert-0.0.1-1.tar.gz",
+  url = "https://github.com/treadwelllane/lua-santoku-matrix/releases/download/0.0.52-1/santoku-matrix-0.0.52-1.tar.gz",
 }
 
 description = {
-  homepage = "https://github.com/treadwelllane/lua-santoku-bert",
+  homepage = "https://github.com/treadwelllane/lua-santoku-matrix",
   license = "MIT"
 }
 
 dependencies = {
-  "lua >= 5.1",
-  "santoku >= 0.0.100-1",
-  "santoku-python >= 0.0.9-1"
+  "lua == 5.1",
+  "santoku >= 0.0.268-1",
+  "santoku-threads >= 0.0.5-1"
 }
 
-test_dependencies = {
-  "luafilesystem >= 1.8.0-1",
-  "luassert >= 1.9.0-1",
-  "luacov >= 0.15.0-1",
-  "luasocket >= 3.1.0-1",
-  "inspect >= 3.1.3-0"
+external_dependencies = {
+  
 }
 
 build = {
   type = "make",
+  makefile = "Makefile",
   variables = {
     LIB_EXTENSION = "$(LIB_EXTENSION)",
   },
   build_variables = {
     CC = "$(CC)",
+    CXX = "$(CXX)",
+    AR = "$(AR)",
+    LD = "$(LD)",
+    NM = "$(NM)",
+    LDSHARED = "$(LDSHARED)",
+    RANLIB = "$(RANLIB)",
     CFLAGS = "$(CFLAGS)",
     LIBFLAG = "$(LIBFLAG)",
     LUA_BINDIR = "$(LUA_BINDIR)",
     LUA_INCDIR = "$(LUA_INCDIR)",
+    LUA_LIBDIR = "$(LUA_LIBDIR)",
     LUA_LIBDIR = "$(LUA_LIBDIR)",
     LUA = "$(LUA)",
   },
@@ -48,9 +52,4 @@ build = {
     INST_LUADIR = "$(LUADIR)",
     INST_CONFDIR = "$(CONFDIR)",
   }
-}
-
-test = {
-  type = "command",
-  command = "make test"
 }
