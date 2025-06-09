@@ -5072,6 +5072,15 @@ repository = {
          }
       }
    },
+   ['blink.cmp'] = {
+      ['1.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    blowfish = {
       ['0.1-1'] = {
          {
@@ -29755,6 +29764,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1932-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -31014,6 +31030,11 @@ repository = {
          }
       },
       ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -35401,6 +35422,20 @@ repository = {
          }
       },
       ['2.0.20-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.21-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.22-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -91621,6 +91656,13 @@ repository = {
          }
       }
    },
+   mediapipe_lua = {
+      ['0.10.24-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    mediator2 = {
       ['2.0.0-1'] = {
          {
@@ -102865,6 +102907,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['nvim-scrollview'] = {
@@ -104283,6 +104332,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['4.11.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['4.8.0-1'] = {
          {
             arch = "rockspec"
@@ -104314,6 +104368,11 @@ repository = {
    },
    ['opencv_lua-contrib'] = {
       ['4.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['4.11.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -116496,11 +116555,6 @@ repository = {
       }
    },
    router = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
       ['1.0-1'] = {
          {
             arch = "rockspec"
