@@ -72901,6 +72901,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.06-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-rocketmq'] = {
@@ -111618,6 +111625,11 @@ repository = {
          }
       },
       ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.7.0-1'] = {
          {
             arch = "rockspec"
          }
