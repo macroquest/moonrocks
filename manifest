@@ -30153,6 +30153,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1964-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -70195,6 +70202,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-jwt2'] = {
@@ -100593,6 +100607,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neotest-busted'] = {
@@ -102012,6 +102033,22 @@ repository = {
          }
       },
       ['3.9.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   nixessitycore = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -119370,6 +119407,13 @@ repository = {
          }
       },
       ['6.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
