@@ -6402,6 +6402,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['cairo-luajit-ffi'] = {
@@ -69067,6 +69074,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.14-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.2-1'] = {
          {
             arch = "rockspec"
@@ -86340,6 +86354,15 @@ repository = {
          }
       }
    },
+   luatex = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luatext = {
       ['0.1.0-0'] = {
          {
@@ -90420,6 +90443,13 @@ repository = {
          }
       },
       ['2.11.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.11.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -105650,6 +105680,13 @@ repository = {
          }
       }
    },
+   ['open-appsec-waf-kong-plugin'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['open-tiny-util'] = {
       ['0.1-1'] = {
          {
@@ -116808,6 +116845,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rocks-dev.nvim'] = {
@@ -116903,6 +116947,13 @@ repository = {
          }
       },
       ['1.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.8.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -117099,6 +117150,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rocks-lazy.nvim'] = {
@@ -117145,6 +117203,13 @@ repository = {
          }
       },
       ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -117217,6 +117282,13 @@ repository = {
          }
       },
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -117807,6 +117879,13 @@ repository = {
          }
       },
       ['2.45.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.45.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -129471,6 +129550,13 @@ repository = {
          }
       },
       ['2.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
