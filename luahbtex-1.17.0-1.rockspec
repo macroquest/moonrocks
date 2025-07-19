@@ -5,7 +5,7 @@ local specrev = '1'
 local repo_url = 'https://gitlab.lisn.upsaclay.fr/texlive/luatex'
 
 rockspec_format = '3.0'
-package = 'texlua'
+package = 'luahbtex'
 version = modrev .. '-' .. specrev
 
 description = {
@@ -31,9 +31,11 @@ end
 build = {
   type = 'command',
   patches = {
+      ["fix-build.sh.diff"] = [[
+]],
      ["customize-texmf.diff"] = [[
---- old/source/texk/kpathsea/texmf.cnf	2023-04-29 22:20:25.000000000 +0800
-+++ new/source/texk/kpathsea/texmf.cnf	2025-02-02 10:09:30.869719891 +0800
+--- old/source/texk/kpathsea/texmf.cnf
++++ new/source/texk/kpathsea/texmf.cnf
 @@ -574,33 +574,7 @@
  % since we don't want to scatter ../'s throughout the value.  Hence we
  % explicitly list every directory.  Arguably more understandable anyway.
@@ -65,16 +67,16 @@ build = {
 -$SELFAUTOPARENT/texmf-dist/web2c,\
 -$SELFAUTOPARENT/texmf/web2c\
 -}
-+TEXMFCNF = {~/.config/texmf,~/.local/share/texmf,\$SELFAUTODIR}/web2c
++TEXMFCNF = {~/.config/texmf,~/.local/share/texmf,$SELFAUTODIR}/web2c
  %
  % For reference, here is the old brace-using definition:
  %TEXMFCNF = {$SELFAUTOLOC,$SELFAUTODIR,$SELFAUTOPARENT}{,{/share,}/texmf{-local,}/web2c}
-  ]]
+]]
   },
-  build_command = [[./build.sh --nolua53 --luahb --parallel]],
+  build_command = [[sh build.sh --nolua53 --luahb --parallel]],
   install = {
     bin = {
-      texlua = 'build/texk/web2c/luahbtex'
+      luahbtex = 'build/texk/web2c/luahbtex'
     },
     conf = {
       ['../web2c/texmf.cnf'] = 'source/texk/kpathsea/texmf.cnf'

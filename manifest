@@ -1642,6 +1642,13 @@ repository = {
          }
       }
    },
+   amsfonts = {
+      ['3.04-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    anim8 = {
       ['v2.3.1-1'] = {
          {
@@ -9041,6 +9048,15 @@ repository = {
       ['0.20-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['cm-tfm'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -26099,6 +26115,15 @@ repository = {
          }
       }
    },
+   filecontents = {
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    filehook = {
       ['0.8-2'] = {
          {
@@ -30280,6 +30305,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.2019-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -33026,6 +33058,15 @@ repository = {
    },
    grapheme = {
       ['master-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['graphics-cfg'] = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -38294,15 +38335,6 @@ repository = {
          }
       }
    },
-   initex = {
-      ['0.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    injarg = {
       ['0.1.0-0'] = {
          {
@@ -40210,6 +40242,15 @@ repository = {
       ['1.0-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['knuth-lib'] = {
+      ['2021.02.05-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -54135,6 +54176,15 @@ repository = {
          }
       }
    },
+   ['latex-fonts'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['latex-graphics'] = {
       ['2024.11.01-2'] = {
          {
@@ -54146,6 +54196,15 @@ repository = {
    },
    ['latex-tools'] = {
       ['2024.11.01-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['latex-url'] = {
+      ['3.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -62493,6 +62552,29 @@ repository = {
          }
       },
       ['0.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-cref'] = {
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -75939,6 +76021,15 @@ repository = {
          }
       }
    },
+   ['lua-uni-algos'] = {
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-uri'] = {
       ['1.0.0-1'] = {
          {
@@ -78218,6 +78309,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luacov-coveralls'] = {
@@ -79581,6 +79679,15 @@ repository = {
          }
       }
    },
+   luafindfont = {
+      ['0.16-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luaflac = {
       ['1.0.0-1'] = {
          {
@@ -79953,6 +80060,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   luahbtex = {
+      ['1.17.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -81022,6 +81136,8 @@ repository = {
       ['0.0.1-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -81101,6 +81217,15 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   lualibs = {
+      ['2.76-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -90216,6 +90341,22 @@ repository = {
          }
       }
    },
+   ['lx-test-b'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lx-test-c'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lxsh = {
       ['0.8-1'] = {
          {
@@ -91981,6 +92122,15 @@ repository = {
       ['1.0.0-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   manual = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -122907,6 +123057,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.272-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.28-1'] = {
          {
             arch = "rockspec"
@@ -123802,6 +123957,11 @@ repository = {
          }
       },
       ['0.0.12-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.120-1'] = {
          {
             arch = "rockspec"
          }
@@ -134444,8 +134604,8 @@ repository = {
          }
       }
    },
-   texinfo = {
-      ['7.2-2'] = {
+   ['tex-ini-files'] = {
+      ['2025.02.09-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -134453,10 +134613,21 @@ repository = {
          }
       }
    },
-   texlua = {
-      ['1.17.0-1'] = {
+   texdoc = {
+      ['4.1.1-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   texinfo = {
+      ['7.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -134574,6 +134745,27 @@ repository = {
          }
       },
       ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -148908,6 +149100,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.31-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -159794,6 +159993,15 @@ repository = {
          }
       },
       ['0.0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['tree-sitter-groq'] = {
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -214547,6 +214755,13 @@ repository = {
    },
    yamlscript = {
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
