@@ -2379,6 +2379,15 @@ repository = {
          }
       }
    },
+   args = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    argv = {
       ['0.1.0-1'] = {
          {
@@ -8846,6 +8855,13 @@ repository = {
          }
       },
       ['0.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.11.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -26351,6 +26367,15 @@ repository = {
          }
       }
    },
+   filemod = {
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    finally = {
       ['1.0.0-1'] = {
          {
@@ -26542,6 +26567,15 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   float = {
+      ['1.3-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -30502,6 +30536,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.2045-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -32244,6 +32285,15 @@ repository = {
          }
       },
       ['0.2.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   gincltex = {
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -81610,6 +81660,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lualdap = {
@@ -87056,6 +87113,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luatex85 = {
@@ -87069,6 +87133,13 @@ repository = {
    },
    luatexinfo = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -93218,6 +93289,13 @@ repository = {
          }
       },
       ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -99756,6 +99834,15 @@ repository = {
          }
       }
    },
+   multido = {
+      ['1.42-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    multikey = {
       ['0.3-1'] = {
          {
@@ -100646,6 +100733,15 @@ repository = {
          }
       },
       ['1.0-9'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   needspace = {
+      ['1.3-5'] = {
          {
             arch = "rockspec"
          }, {
@@ -113123,6 +113219,15 @@ repository = {
          }
       }
    },
+   preview = {
+      ['14.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    primes = {
       ['1.0.0-1'] = {
          {
@@ -125364,6 +125469,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.84-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.9-1'] = {
          {
             arch = "rockspec"
@@ -128839,6 +128949,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['session.nvim'] = {
@@ -129107,6 +129222,11 @@ repository = {
          }
       },
       ['1.5.4-3'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.5.4-4'] = {
          {
             arch = "rockspec"
          }
@@ -132528,6 +132648,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['string-replace'] = {
@@ -133050,6 +133175,15 @@ repository = {
          }
       },
       ['master-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['svn-prov'] = {
+      ['3.1859-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -135379,6 +135513,13 @@ repository = {
          }
       },
       ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -211656,6 +211797,15 @@ repository = {
          }
       }
    },
+   varwidth = {
+      ['0.92-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    vector = {
       ['1.0.0-1'] = {
          {
@@ -214892,6 +215042,15 @@ repository = {
          }
       }
    },
+   xkeyval = {
+      ['2.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['xls-read'] = {
       ['1.0-1'] = {
          {
@@ -216636,6 +216795,15 @@ repository = {
          }
       },
       ['3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ydoc = {
+      ['0.7-1'] = {
          {
             arch = "rockspec"
          }, {
