@@ -1769,6 +1769,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['api-gateway-request-validation'] = {
@@ -3075,22 +3082,6 @@ repository = {
          }, {
             arch = "src"
          }
-      },
-      ['0.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['atmos-lang'] = {
-      ['0.2.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
       }
    },
    atpath = {
@@ -3458,6 +3449,13 @@ repository = {
          }
       },
       ['0.0.25-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.26-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -30543,6 +30541,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.2051-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -31785,6 +31790,22 @@ repository = {
    },
    gemfetchr = {
       ['0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['gemini.nvim'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -66502,6 +66523,15 @@ repository = {
       ['1.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-open'] = {
+      ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -114574,6 +114604,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    qaluate = {
@@ -121986,6 +122023,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.280-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.29-1'] = {
          {
             arch = "rockspec"
@@ -125474,6 +125516,26 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.85-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.86-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.87-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.88-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.9-1'] = {
          {
             arch = "rockspec"
@@ -126492,6 +126554,16 @@ repository = {
          }
       },
       ['0.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.9-1'] = {
          {
             arch = "rockspec"
          }
