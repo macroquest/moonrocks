@@ -1,10 +1,12 @@
 rockspec_format = "3.0"
 package = "lua-open"
-version = "0.2.4-1"
+version = "0.3.0-1"
 
 description = {
 	summary = "Use system tool to open a file",
 	detailed = "If the file doesn't exist in current path, it will search package path by `lux.toml`",
+	license = "GPL-3.0",
+	homepage = "https://github.com/ustctug/texrocks",
 	maintainer = "Wu",
 	labels = {
 		"texlua",
@@ -14,12 +16,20 @@ description = {
 dependencies = {
 	"lua>=5.1",
 	"toml2lua==3.0.0",
-	"texrocks==0.2.4",
+	"texrocks==0.3.0",
 }
 
 source = {
-	url = "https://github.com/ustctug/texrocks/archive/ae67947f7e6ab4bc922beb0810a0434b0a8a142b.zip",
-	dir = "texrocks-ae67947f7e6ab4bc922beb0810a0434b0a8a142b/packages/lua-open",
+	url = "https://github.com/ustctug/texrocks/archive/0.3.0.zip",
+	dir = "texrocks-0.3.0/packages/lua-open",
+}
+
+test = {
+	type = "command",
+	flags = {
+		"bin/lua-open",
+	},
+	command = "lua-open",
 }
 
 deploy = {
