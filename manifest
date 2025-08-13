@@ -12392,6 +12392,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.2.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.2.2-1'] = {
          {
             arch = "rockspec"
@@ -23367,6 +23374,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.3.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.7-1'] = {
          {
             arch = "rockspec"
@@ -32908,6 +32922,15 @@ repository = {
          }
       }
    },
+   ['git2.nvim'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    github = {
       ['0.0.1-1'] = {
          {
@@ -39093,6 +39116,13 @@ repository = {
    },
    initex = {
       ['0.3.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -53725,6 +53755,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.3.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.2-1'] = {
          {
             arch = "rockspec"
@@ -67185,6 +67222,13 @@ repository = {
          }
       },
       ['0.3.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -82487,6 +82531,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.3.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.2-1'] = {
          {
             arch = "rockspec"
@@ -88059,6 +88110,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.3.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.2-1'] = {
          {
             arch = "rockspec"
@@ -88164,6 +88222,13 @@ repository = {
          }
       },
       ['0.3.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -119469,6 +119534,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rocks-lazy.nvim'] = {
@@ -130240,6 +130312,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.3.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.7-1'] = {
          {
             arch = "rockspec"
@@ -137000,6 +137079,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.3.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.8-1'] = {
          {
             arch = "rockspec"
@@ -137024,6 +137110,13 @@ repository = {
          }
       },
       ['0.3.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -137119,6 +137212,13 @@ repository = {
          }
       },
       ['0.3.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -137352,6 +137452,13 @@ repository = {
          }
       },
       ['0.3.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -154832,6 +154939,13 @@ repository = {
          }
       },
       ['0.0.32-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.33-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -182553,6 +182667,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.45-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.5-1'] = {
          {
             arch = "rockspec"
@@ -182857,6 +182978,13 @@ repository = {
          }
       },
       ['0.0.47-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.49-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -196640,6 +196768,15 @@ repository = {
          }
       },
       ['0.0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['tree-sitter-sproto'] = {
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -214458,6 +214595,15 @@ repository = {
          }
       }
    },
+   ['visual-surround.nvim'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    vizdoom = {
       ['1.1.0-0'] = {
          {
@@ -218252,6 +218398,13 @@ repository = {
          }
       },
       ['11.10.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['11.10.2-1'] = {
          {
             arch = "rockspec"
          }, {
