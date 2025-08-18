@@ -4468,6 +4468,18 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7-3'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    beemovie = {
@@ -13744,6 +13756,13 @@ repository = {
          }
       },
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -23056,6 +23075,15 @@ repository = {
          }
       }
    },
+   emmyluacodestyle = {
+      ['1.5.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    emoji = {
       ['1.0-0'] = {
          {
@@ -25227,6 +25255,13 @@ repository = {
          }
       },
       ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -31078,6 +31113,13 @@ repository = {
          }
       },
       ['0.0.2096-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2097-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -66005,6 +66047,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-language-server'] = {
+      ['3.15.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -107018,6 +107069,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['nvim-telescope-cycler'] = {
@@ -107955,6 +108013,13 @@ repository = {
          }
       },
       ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.20.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -123824,6 +123889,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.281-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.29-1'] = {
          {
             arch = "rockspec"
@@ -127396,6 +127466,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.97-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['santoku-pdf'] = {
@@ -128547,6 +128622,11 @@ repository = {
          }
       },
       ['0.0.12-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.120-1'] = {
          {
             arch = "rockspec"
          }
