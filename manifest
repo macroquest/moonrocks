@@ -90982,6 +90982,13 @@ repository = {
          }
       }
    },
+   lunatic = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luncheon = {
       ['0.0.0-1'] = {
          {
@@ -111334,6 +111341,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    orm = {
@@ -126249,6 +126270,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.275-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.28-1'] = {
          {
             arch = "rockspec"
@@ -127163,6 +127189,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.123-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.13-1'] = {
          {
             arch = "rockspec"
@@ -127678,6 +127709,11 @@ repository = {
          }
       },
       ['0.0.108-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.109-1'] = {
          {
             arch = "rockspec"
          }
@@ -139023,6 +139059,13 @@ repository = {
          }
       },
       ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -222665,6 +222708,13 @@ repository = {
          }
       },
       ['0.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.3-1'] = {
          {
             arch = "rockspec"
          }, {
