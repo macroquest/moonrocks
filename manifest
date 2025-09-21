@@ -15939,13 +15939,6 @@ repository = {
          }
       }
    },
-   ['discord.lua'] = {
-      ['1.0.2-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    discount = {
       ['0.1.0-1'] = {
          {
@@ -31539,6 +31532,13 @@ repository = {
          }
       },
       ['0.0.2245-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2246-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -62605,6 +62605,13 @@ repository = {
          }
       },
       ['1.0.14-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.15-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -102910,13 +102917,6 @@ repository = {
          {
             arch = "rockspec"
          }
-      },
-      ['2.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
       }
    },
    myauth = {
@@ -103256,6 +103256,13 @@ repository = {
    },
    nbt = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -139671,6 +139678,15 @@ repository = {
          }
       }
    },
+   theta = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['threat-protection'] = {
       ['0.1.0-1'] = {
          {
@@ -140975,6 +140991,13 @@ repository = {
    },
    tomlua = {
       ['0.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
