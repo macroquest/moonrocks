@@ -1,5 +1,5 @@
-package = 'chotto.lua'
-version = 'main-1'
+package = 'chotto'
+version = 'main-4'
 source = {
    url = 'https://github.com/aiya000/chotto.lua'
 }
@@ -9,5 +9,7 @@ description = {
 }
 build = {
    type = 'builtin',
-   modules = {}
+   modules = {
+      chotto = 'src/chotto.lua'
+   }
 }
