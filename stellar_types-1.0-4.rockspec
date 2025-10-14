@@ -1,5 +1,5 @@
 package = "stellar_types"
-version = "1.0-3"
+version = "1.0-4"
 
 source = {
    url = "git+https://github.com/SymonBezerra/stellar-types",
@@ -25,12 +25,12 @@ build = {
    modules = {
       ["stellar_types"] = {
          sources = {
-            "../stellar_types/stellar_types/stellar_types.c",
-            "../stellar_types/stellar_types/staux.c",
-            "../stellar_types/stellar_types/stm.c",
-            "../stellar_types/stellar_types/st.c"
+            "stellar_types/stellar_types.c",
+            "stellar_types/staux.c",
+            "stellar_types/stm.c",
+            "stellar_types/st.c"
          },
-         incdirs = { "../stellar_types/stellar_types" },
+         incdirs = { "stellar_types" },
          defines = { "LUA_C89_NUMBERS" },
          libraries = {}
       }
