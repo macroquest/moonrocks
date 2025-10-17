@@ -24776,6 +24776,15 @@ repository = {
          }
       }
    },
+   exile = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    exists = {
       ['0.1.0-1'] = {
          {
@@ -31818,6 +31827,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.2275-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -35551,6 +35567,13 @@ repository = {
          }
       },
       ['1.6.51-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6.52-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -73618,6 +73641,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-libr3'] = {
@@ -91883,6 +91913,15 @@ repository = {
       ['1.0-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lunatic-python'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
