@@ -31934,6 +31934,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.2283-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -105252,6 +105259,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neotest-dotnet'] = {
@@ -126269,6 +126283,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.293-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.294-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.3-1'] = {
          {
             arch = "rockspec"
@@ -129647,7 +129671,67 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.144-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.145-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.146-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.147-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.148-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.149-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.15-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.150-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.151-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.152-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.153-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.154-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.155-1'] = {
          {
             arch = "rockspec"
          }
