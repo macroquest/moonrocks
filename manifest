@@ -16284,6 +16284,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.251031-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    djot = {
@@ -32042,6 +32049,13 @@ repository = {
          }
       },
       ['0.0.2295-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2296-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -73832,6 +73846,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-jwt2'] = {
@@ -96414,6 +96435,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['markdown.sile'] = {
@@ -105853,6 +105895,13 @@ repository = {
          }
       },
       ['2.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -132004,12 +132053,87 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.168-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.169-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.17-1'] = {
          {
             arch = "rockspec"
          }
       },
+      ['0.0.170-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.171-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.172-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.173-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.174-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.175-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.176-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.177-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.178-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.179-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.18-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.180-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.181-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.182-1'] = {
          {
             arch = "rockspec"
          }
