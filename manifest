@@ -87456,6 +87456,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-lrocket'] = {
@@ -88908,6 +88915,13 @@ repository = {
          }
       },
       ['2.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.4.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -108730,6 +108744,15 @@ repository = {
          }
       }
    },
+   ['nvim-dap-envfile'] = {
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['nvim-dap-ui'] = {
       ['3.9.3-1'] = {
          {
@@ -116270,6 +116293,13 @@ repository = {
          }
       },
       ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -125423,6 +125453,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['6.9.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rxi-json'] = {
@@ -130275,6 +130312,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.164-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.17-1'] = {
          {
             arch = "rockspec"
@@ -132265,6 +132307,21 @@ repository = {
          }
       },
       ['0.0.191-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.192-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.193-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.194-1'] = {
          {
             arch = "rockspec"
          }
@@ -143372,6 +143429,13 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -225228,6 +225292,13 @@ repository = {
          }
       },
       ['0.29.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.29.4-3'] = {
          {
             arch = "rockspec"
          }, {
