@@ -1,11 +1,11 @@
 rockspec_format = '3.0'
 package = 'Yuescript'
-version = '0.29.4-3'
+version = '0.29.6-3'
 source = {
 	url = 'git+https://github.com/pigpigyyy/yuescript'
 }
 description = {
-	summary = 'YueScript is a Moonscript dialect.',
+	summary = 'Yuescript is a Moonscript dialect.',
 	detailed = [[
 	Yuescript is a Moonscript dialect. It is derived from Moonscript language 0.5.0 and continuously adopting new features to be more up to date. ]],
 	homepage = 'https://github.com/pigpigyyy/yuescript',
