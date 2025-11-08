@@ -36047,6 +36047,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['main-1'] = {
          {
             arch = "rockspec"
@@ -96440,6 +96447,15 @@ repository = {
          }
       }
    },
+   ['markdoc.nvim'] = {
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    markdown = {
       ['0.13-1'] = {
          {
@@ -96544,6 +96560,20 @@ repository = {
          }
       },
       ['1.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -97318,6 +97348,15 @@ repository = {
       ['1.3-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['mdtypes.nvim'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -105476,6 +105515,27 @@ repository = {
          }
       },
       ['5.13.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.13.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.13.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.13.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -128580,6 +128640,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.277-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.28-1'] = {
          {
             arch = "rockspec"
@@ -129500,6 +129565,11 @@ repository = {
          }
       },
       ['0.0.124-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.125-1'] = {
          {
             arch = "rockspec"
          }
@@ -132463,6 +132533,11 @@ repository = {
          }
       },
       ['0.0.212-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.213-1'] = {
          {
             arch = "rockspec"
          }
