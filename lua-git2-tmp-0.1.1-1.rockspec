@@ -2,10 +2,10 @@ local git_ref = '0.1.1'
 local modrev = '0.1.1'
 local specrev = '1'
 
-local repo_url = 'https://github.com/Freed-Wu/luagit2-tmp'
+local repo_url = 'https://github.com/Freed-Wu/lua-git2-temp'
 
 rockspec_format = '3.0'
-package = 'luagit2-tmp'
+package = 'lua-git2-tmp'
 version = modrev ..'-'.. specrev
 
 description = {
@@ -22,7 +22,7 @@ test_dependencies = { }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'luagit2-tmp-' .. '0.1.1',
+  dir = 'lua-git2-temp-' .. '0.1.1',
 }
 
 if modrev == 'scm' or modrev == 'dev' then
