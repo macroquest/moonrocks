@@ -1,6 +1,6 @@
 rockspec_format = '3.0'
 package = 'Yuescript'
-version = '0.30.0-1'
+version = '0.30.2-1'
 source = {
 	url = 'git+https://github.com/pigpigyyy/yuescript'
 }
