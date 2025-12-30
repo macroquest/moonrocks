@@ -4311,6 +4311,15 @@ repository = {
          }
       }
    },
+   ["bananaproai-com"] = {
+      ["1767.63.908-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["barcodes.sile"] = {
       ["1.0.0-1"] = {
          {
@@ -74458,6 +74467,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.0.17-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.0.2-1"] = {
          {
             arch = "rockspec"
@@ -85370,6 +85386,13 @@ repository = {
          }
       },
       ["0.10.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.10.3-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -108753,6 +108776,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.7.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["neotest-haskell"] = {
@@ -109186,6 +109216,55 @@ repository = {
          }
       },
       ["0.23.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.23.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.23.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.23.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.23.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.23.5-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.23.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.23.7-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -121348,6 +121427,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.0.13-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.0.2-1"] = {
          {
             arch = "rockspec"
@@ -128944,6 +129030,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["7.0.7-2"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["rxi-json"] = {
@@ -130456,6 +130547,11 @@ repository = {
          }
       },
       ["0.0.32-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.320-1"] = {
          {
             arch = "rockspec"
          }
@@ -135343,6 +135439,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["0.0.14-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["0.0.3-1"] = {
          {
             arch = "rockspec"
@@ -136633,6 +136734,16 @@ repository = {
          }
       },
       ["0.0.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.4-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.5-1"] = {
          {
             arch = "rockspec"
          }
@@ -139740,6 +139851,16 @@ repository = {
          }
       },
       ["0.0.442-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.443-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.444-1"] = {
          {
             arch = "rockspec"
          }
@@ -143032,6 +143153,22 @@ repository = {
    },
    ["sos.nvim"] = {
       ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["sotavideo.ai"] = {
+      ["1767.87.973-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1767.90.300-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -149432,6 +149569,15 @@ repository = {
          }
       },
       ["1.0.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["tomusic.ai-1"] = {
+      ["1767.83.237-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -191922,6 +192068,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.0.69-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.0.7-1"] = {
          {
             arch = "rockspec"
@@ -228118,6 +228271,13 @@ repository = {
          }
       },
       ["0.0.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.0.7-1"] = {
          {
             arch = "rockspec"
          }, {
