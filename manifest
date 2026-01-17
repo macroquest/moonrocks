@@ -36852,6 +36852,15 @@ repository = {
          }
       }
    },
+   ["gron-lua"] = {
+      ["0.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["grpc-client-nginx-module"] = {
       ["0.1.0-0"] = {
          {
@@ -54917,6 +54926,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["kong-plugin-treblle"] = {
@@ -71701,6 +71717,13 @@ repository = {
          }
       },
       ["1.4.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.5.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -106828,6 +106851,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["move.nvim"] = {
@@ -115734,6 +115764,13 @@ repository = {
    },
    openssl = {
       ["0.10.0-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.11.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -126960,6 +126997,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.2.15-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.2.2-1"] = {
          {
             arch = "rockspec"
@@ -136710,6 +136754,21 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["0.0.212-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.213-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.214-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["0.0.22-1"] = {
          {
             arch = "rockspec"
@@ -139321,6 +139380,11 @@ repository = {
          }
       },
       ["0.0.273-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.274-1"] = {
          {
             arch = "rockspec"
          }
@@ -144101,6 +144165,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    skewheap = {
@@ -146319,6 +146390,13 @@ repository = {
    },
    stellar_types = {
       ["1.0-4"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   stileweb = {
+      ["1.0.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -150280,6 +150358,13 @@ repository = {
          }
       },
       ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -177872,6 +177957,13 @@ repository = {
          }
       },
       ["0.0.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.0.40-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -231650,6 +231742,13 @@ repository = {
          }
       },
       ["1.6.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.7.0-1"] = {
          {
             arch = "rockspec"
          }, {
