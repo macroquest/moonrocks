@@ -1,7 +1,7 @@
 package = "lsqlite3complete"
 version = "0.9.6-1"
 source = {
-    url = "http://lua.sqlite.org/index.cgi/zip/lsqlite3_v096.zip?uuid=v0.9.6",
+    url = "http://lua.sqlite.org/home/zip/lsqlite3_v096.zip?uuid=v0.9.6",
     file = "lsqlite3_v096.zip",
 }
 description = {
