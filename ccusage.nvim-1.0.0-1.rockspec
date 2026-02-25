@@ -1,0 +1,38 @@
+local git_ref = 'v1.0.0'
+local modrev = '1.0.0'
+local specrev = '1'
+
+local repo_url = 'https://github.com/S1M0N38/ccusage.nvim'
+
+rockspec_format = '3.0'
+package = 'ccusage.nvim'
+version = modrev ..'-'.. specrev
+
+description = {
+  summary = '⌖ Track Claude Code usage in Neovim',
+  detailed = [[
+A template for Neovim plugin]],
+  labels = { 'ccusage', 'claude-code', 'lualine', 'neovim', 'neovim-plugin' } ,
+  homepage = 'https://github.com/S1M0N38/ccusage.nvim',
+  license = 'MIT'
+}
+
+dependencies = { 'lua >= 5.1' } 
+
+test_dependencies = { }
+
+source = {
+  url = repo_url .. '/archive/' .. git_ref .. '.zip',
+  dir = 'ccusage.nvim-' .. '1.0.0',
+}
+
+if modrev == 'scm' or modrev == 'dev' then
+  source = {
+    url = repo_url:gsub('https', 'git')
+  }
+end
+
+build = {
+  type = 'builtin',
+  copy_directories = { },
+}

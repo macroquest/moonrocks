@@ -1,0 +1,38 @@
+local git_ref = 'ae364595af20d19cd8ff62d74c57c8d8710d9d77'
+local modrev = '1.0.0'
+local specrev = '1'
+
+local repo_url = 'https://github.com/DrKJeff16/wezterm-types'
+
+rockspec_format = '3.0'
+package = 'wezterm-types'
+version = modrev ..'-'.. specrev
+
+description = {
+  summary = 'WezTerm Lua config types for Lua Language Server, with Neovim and VSCode compatibility.',
+  detailed = [[
+LuaCATS-like Lua Language Server type annotations for your WezTerm config.]],
+  labels = { 'metalua', 'neovim' } ,
+  homepage = 'https://github.com/DrKJeff16/wezterm-types',
+  license = 'MIT'
+}
+
+dependencies = { 'lua >= 5.1' } 
+
+test_dependencies = { }
+
+source = {
+  url = repo_url .. '/archive/' .. git_ref .. '.zip',
+  dir = 'wezterm-types-' .. 'ae364595af20d19cd8ff62d74c57c8d8710d9d77',
+}
+
+if modrev == 'scm' or modrev == 'dev' then
+  source = {
+    url = repo_url:gsub('https', 'git')
+  }
+end
+
+build = {
+  type = 'builtin',
+  copy_directories = { },
+}

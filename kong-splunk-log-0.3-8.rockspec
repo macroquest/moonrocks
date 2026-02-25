@@ -1,7 +1,7 @@
 package = "kong-splunk-log"
 version = "0.3-8"
 source = {
-   url = "git+https://github.com/Optum/kong-splunk-log.git"
+   url = "git+https://github.com/jeremyjpj0916/kong-splunk-log.git"
 }
 description = {
    summary = "Kong plugin designed to log API transactions to Splunk",

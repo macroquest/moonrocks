@@ -1,36 +1,39 @@
-package = "srplib"
-version = "0.2.0-1"
+local git_ref = 'v0.2.0'
+local modrev = '0.2.0'
+local specrev = '1'
 
-rockspec_format = "3.0"
+local repo_url = 'https://github.com/apechinsky/srplib.lua'
 
-source = {
-   url = "git://github.com/apechinsky/srplib.lua",
-   tag = "v0.2.0"
-}
+rockspec_format = '3.0'
+package = 'srplib'
+version = modrev ..'-'.. specrev
 
 description = {
-   homepage = "https://github.com/apechinsky/srplib.lua",
-   license = "MIT"
+  summary = 'A collection of lightweight and highly specialized libraries for lua.',
+  detailed = [[
+A collection of lightweight and highly specialized libraries for lua.
+Lua port of Java libraries https://github.com/apechinsky/srplib.]],
+  labels = { },
+  homepage = 'https://github.com/apechinsky/srplib.lua',
+  license = 'MIT'
 }
 
-dependencies = {
-   "lua >= 5.1"
+dependencies = { 'lua >= 5.1' } 
+
+test_dependencies = { }
+
+source = {
+  url = repo_url .. '/archive/' .. git_ref .. '.zip',
+  dir = 'srplib.lua-' .. '0.2.0',
 }
 
-test_dependencies = {
-    "busted",
-    "luacheck",
-    "matcher_combinators"
-}
-
-test = {
-   type = "busted"
-}
+if modrev == 'scm' or modrev == 'dev' then
+  source = {
+    url = repo_url:gsub('https', 'git')
+  }
+end
 
 build = {
-   type = "builtin",
-   modules = {
-      ["path"] = "src/srplib/path.lua",
-      ["strings"] = "src/srplib/strings.lua"
-   }
+  type = 'builtin',
+  copy_directories = { },
 }
