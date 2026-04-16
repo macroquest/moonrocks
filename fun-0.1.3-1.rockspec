@@ -2,8 +2,8 @@ package = "fun"
 version = "0.1.3-1"
 
 source = {
-    url = "git+https://github.com/luafun/luafun.git",
-    tag = "0.1.3"
+    url = "https://github.com/luafun/luafun/archive/refs/tags/0.1.3.tar.gz",
+    dir = "luafun-0.1.3",
 }
 
 description = {
