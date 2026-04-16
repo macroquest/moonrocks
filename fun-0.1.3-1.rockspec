@@ -2,7 +2,7 @@ package = "fun"
 version = "0.1.3-1"
 
 source = {
-    url = "git://github.com/luafun/luafun.git",
+    url = "git+https://github.com/luafun/luafun.git",
     tag = "0.1.3"
 }
 
