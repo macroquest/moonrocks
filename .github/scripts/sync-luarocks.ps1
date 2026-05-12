@@ -1,12 +1,42 @@
 #!/usr/bin/env pwsh
 $ErrorActionPreference = 'Stop'
 $ProgressPreference    = 'SilentlyContinue'
+# `git diff --cached --quiet` signals "has diff" with exit 1; don't let pwsh
+# turn that into a script-fatal error.
+$PSNativeCommandUseErrorActionPreference = $false
 
-$tmp          = if ($env:RUNNER_TEMP) { $env:RUNNER_TEMP } else { [System.IO.Path]::GetTempPath() }
-$manifestPath = Join-Path $tmp 'manifest.lua'
+$tmp = if ($env:RUNNER_TEMP) { $env:RUNNER_TEMP } else { [System.IO.Path]::GetTempPath() }
 
-Write-Host 'Fetching https://luarocks.org/manifest ...'
-Invoke-WebRequest -Uri 'https://luarocks.org/manifest' -OutFile $manifestPath
+# Discover manifest variants by probing upstream. LuaRocks publishes a root
+# manifest plus a manifest-5.X / manifest-5.X.json pair for every Lua minor
+# version it supports.
+$manifestFiles = [System.Collections.Generic.List[string]]::new()
+$manifestFiles.Add('manifest')
+$manifestFiles.Add('manifest.json')
+for ($minor = 1; $minor -le 9; $minor++) {
+  $probe = "manifest-5.$minor"
+  $resp  = Invoke-WebRequest -Method Head -Uri "https://luarocks.org/$probe" -SkipHttpErrorCheck
+  if ($resp.StatusCode -eq 200) {
+    $manifestFiles.Add($probe)
+    $manifestFiles.Add("$probe.json")
+  }
+}
+Write-Host ("Manifest variants: {0}" -f ($manifestFiles -join ', '))
+
+# Download to a sidecar and atomically replace, so a mid-fetch failure leaves
+# the prior committed copy intact.
+foreach ($mf in $manifestFiles) {
+  Write-Host "Fetching https://luarocks.org/$mf ..."
+  $tmpFile = "$mf.downloading"
+  try {
+    Invoke-WebRequest -Uri "https://luarocks.org/$mf" -OutFile $tmpFile
+    Move-Item -Path $tmpFile -Destination $mf -Force
+  } catch {
+    if (Test-Path $tmpFile) { Remove-Item $tmpFile -Force -ErrorAction SilentlyContinue }
+    throw
+  }
+}
+$manifestPath = 'manifest'
 Write-Host ("Manifest size: {0:N0} bytes" -f (Get-Item $manifestPath).Length)
 
 # Walks the manifest text and emits (name, version, arch) for every
@@ -43,7 +73,6 @@ foreach ($t in $tokens) {
     $entries.Add([pscustomobject]@{ Name = $name; Version = $ver; File = $file })
   }
 }
-Remove-Item $manifestPath -ErrorAction SilentlyContinue
 Write-Host "Manifest entries: $($entries.Count)"
 
 $existing = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
@@ -57,11 +86,6 @@ foreach ($e in $entries) {
   if (-not $existing.Contains($e.File)) { $missing.Add($e) }
 }
 Write-Host "Missing: $($missing.Count)"
-
-if ($missing.Count -eq 0) {
-  Write-Host 'Up to date.'
-  exit 0
-}
 
 $downloaded = New-Object System.Collections.Generic.List[object]
 $failed     = New-Object System.Collections.Generic.List[object]
@@ -82,19 +106,28 @@ foreach ($m in $missing) {
 }
 Write-Host "Downloaded: $($downloaded.Count). Failed: $($failed.Count)."
 
-if ($downloaded.Count -eq 0) {
+git config user.name  'luarocks-sync[bot]'
+git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+git add -- $manifestFiles '*.rock' '*.rockspec'
+
+git diff --cached --quiet
+if ($LASTEXITCODE -eq 0) {
+  Write-Host 'Nothing to commit.'
   if ($failed.Count -gt 0) { exit 1 } else { exit 0 }
 }
 
-$grouped = $downloaded | Group-Object Name | Sort-Object Name
 $dateStr = (Get-Date -Format 'yyyy-MM-dd')
-$subject = "Sync from luarocks.org ($dateStr): $($grouped.Count) packages, $($downloaded.Count) files"
-
 $body = New-Object System.Collections.Generic.List[string]
-$body.Add('')
-foreach ($g in $grouped) {
-  $vers = ($g.Group | Select-Object -ExpandProperty Version | Sort-Object -Unique) -join ', '
-  $body.Add("- $($g.Name): $vers")
+if ($downloaded.Count -gt 0) {
+  $grouped = $downloaded | Group-Object Name | Sort-Object Name
+  $subject = "Sync from luarocks.org ($dateStr): $($grouped.Count) packages, $($downloaded.Count) files"
+  $body.Add('')
+  foreach ($g in $grouped) {
+    $vers = ($g.Group | Select-Object -ExpandProperty Version | Sort-Object -Unique) -join ', '
+    $body.Add("- $($g.Name): $vers")
+  }
+} else {
+  $subject = "Refresh manifests from luarocks.org ($dateStr)"
 }
 if ($failed.Count -gt 0) {
   $body.Add('')
@@ -105,9 +138,7 @@ if ($failed.Count -gt 0) {
 $msgPath = Join-Path $tmp 'commit-msg.txt'
 @($subject) + $body | Set-Content -Path $msgPath -Encoding utf8
 
-git config user.name  'luarocks-sync[bot]'
-git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-git add -- '*.rock' '*.rockspec'
 git commit -F $msgPath
 git push
 Remove-Item $msgPath -ErrorAction SilentlyContinue
+if ($failed.Count -gt 0) { exit 1 }
